@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Input from "./Input"
+import '../App.css'
 
 function CountDown() {
 
@@ -34,9 +35,9 @@ function CountDown() {
 
     return <div id="count-down-app">
         <Input onRequestStart={startTimer} />
-        <div id="current-time">
+        <h1 id="current-time">
             {currentTime}
-        </div>
+        </h1>
     </div>
 }
 
