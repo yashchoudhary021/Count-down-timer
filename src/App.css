@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  color: greenyellow;
+}
+h1{
+  font-size: 50px;
+}
+.center{
+  margin: 150px 0 0 450px;
+}
+#current-time{
+  margin: 50px 0 0 150px;
+  font-size: 80px;
+}
+
+input{
+  background-color: black;
+  color: greenyellow;
+  padding: 10px 20px;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}
+label{
+  font-size: large;
+}
